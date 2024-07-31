@@ -4,13 +4,13 @@ TODO: have a script for auto install
 
 ## Install
 
-- obsidian: `https://obsidian.md/`
-- syncthing: `https://syncthing.net/`
+- zsh
+- nerd-font
 - kitty: catpuccin theme
-- zellij or tmux
 - pyenv
-- nvm
-- rust
+- luarocks
+- nvm (install yay and then from AUR in arch)
+- rust (on arch install rustup with pacman)
 - go
 - angular
 - lazygit
@@ -18,3 +18,7 @@ TODO: have a script for auto install
 - ripgrep
 - xclip
 - bob
+- config nvim
+- obsidian: `https://obsidian.md/`
+- syncthing: `https://syncthing.net/`
+- zellij or tmux

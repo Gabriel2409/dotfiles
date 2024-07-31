@@ -1,4 +1,4 @@
-# location: $HOME directory
+# location: $HOME directory - for bash shell
 
 # Respect default shortcuts.
 $include /etc/inputrc
