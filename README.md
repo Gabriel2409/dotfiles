@@ -18,6 +18,7 @@ TODO: have a script for auto install
 - ripgrep
 - xclip
 - bob
+- starship
 - config nvim
 - obsidian: `https://obsidian.md/`
 - syncthing: `https://syncthing.net/`
