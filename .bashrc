@@ -112,7 +112,7 @@ PS1='\[\e[1;32m\]\u@\h \[\e[1;34m\]\w\[\e[0m\]\$ '
 eval "$(starship init bash)"
 
 # Load Angular CLI autocompletion.
-# source <(ng completion script)
+source <(ng completion script)
 
 # ensures pipx uses pyenv python
 export PIPX_DEFAULT_PYTHON=python

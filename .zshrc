@@ -58,6 +58,10 @@ alias nvim="NVIM_APPNAME=nvim/nvim-lazyvim nvim"
 alias vi="NVIM_APPNAME=nvim/nvim-lazyvim nvim"
 alias vk="NVIM_APPNAME=nvim/nvim-kickstart nvim"
 
+
+# Load Angular CLI autocompletion.
+source <(ng completion script)
+
 # ensures pipx uses pyenv python
 export PIPX_DEFAULT_PYTHON=python
 
