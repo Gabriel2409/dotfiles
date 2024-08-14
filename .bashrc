@@ -109,7 +109,7 @@ alias vk="NVIM_APPNAME=nvim/nvim-kickstart nvim"
 # standard prompt customization
 PS1='\[\e[1;32m\]\u@\h \[\e[1;34m\]\w\[\e[0m\]\$ '
 # starship prompt
-eval "$(starship init bash)"
+# eval "$(starship init bash)"
 
 # Load Angular CLI autocompletion.
 source <(ng completion script)

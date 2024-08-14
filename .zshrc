@@ -30,7 +30,7 @@ if [ -x /usr/bin/dircolors ]; then
 fi
 
 # extra path - Created by `pipx` 
-export PATH="$PATH:/home/gabriel/.local/bin"
+export PATH="$PATH:$HOME/.local/bin"
 
 # nvm
 source /usr/share/nvm/init-nvm.sh
@@ -47,9 +47,10 @@ export PATH="$PATH:$(go env GOBIN):$(go env GOPATH)/bin"
 eval "$(pyenv init -)"
 
 # shows current dir
-PROMPT='%n@%m:%~%# '
+PROMPT='%B%F{magenta}%n@%m %F{blue}%~%f$ '
 
-eval "$(starship init zsh)"
+# starship breaks tmux copy mode, so i disable it for now
+# eval "$(starship init zsh)"
 
 #nvim
 export BOB_PATH="$HOME/.local/share/bob/nvim-bin"
@@ -72,3 +73,10 @@ export XDG_CONFIG_HOME=$HOME/.config
 autoload -Uz +X compinit && compinit
 zstyle ':completion:*' matcher-list 'm:{a-zA-Z}={A-Za-z}'
 zstyle ':completion:*' menu select
+
+
+# Google cloud sdk if installed from source
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f "$HOME/google-cloud-sdk/path.zsh.inc" ]; then . "$HOME/google-cloud-sdk/path.zsh.inc"; fi
+# The next line enables shell command completion for gcloud.
+if [ -f "$HOME/google-cloud-sdk/completion.zsh.inc" ]; then . "$HOME/google-cloud-sdk/completion.zsh.inc"; fi
