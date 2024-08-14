@@ -47,7 +47,7 @@ export PATH="$PATH:$(go env GOBIN):$(go env GOPATH)/bin"
 eval "$(pyenv init -)"
 
 # shows current dir
-PROMPT='%B%F{magenta}%n@%m %F{blue}%~%f$ '
+PROMPT='%B%F{magenta}%n@%m %F{blue}%~%f%b$ '
 
 # starship breaks tmux copy mode, so i disable it for now
 # eval "$(starship init zsh)"
@@ -66,8 +66,11 @@ source <(ng completion script)
 # ensures pipx uses pyenv python
 export PIPX_DEFAULT_PYTHON=python
 
+
 # set env var for config
 export XDG_CONFIG_HOME=$HOME/.config
+
+
 
 # case insensitive path-completion
 autoload -Uz +X compinit && compinit
@@ -75,8 +78,11 @@ zstyle ':completion:*' matcher-list 'm:{a-zA-Z}={A-Za-z}'
 zstyle ':completion:*' menu select
 
 
+
 # Google cloud sdk if installed from source
 # The next line updates PATH for the Google Cloud SDK.
 if [ -f "$HOME/google-cloud-sdk/path.zsh.inc" ]; then . "$HOME/google-cloud-sdk/path.zsh.inc"; fi
 # The next line enables shell command completion for gcloud.
 if [ -f "$HOME/google-cloud-sdk/completion.zsh.inc" ]; then . "$HOME/google-cloud-sdk/completion.zsh.inc"; fi
+# The next line enables shell command completion for gcloud.
+
