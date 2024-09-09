@@ -86,12 +86,6 @@ source /usr/share/nvm/init-nvm.sh
 # go
 export PATH="$PATH:$(go env GOBIN):$(go env GOPATH)/bin"
 
-#pyenv
-
-export PYENV_ROOT="$HOME/.pyenv"
-command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
-eval "$(pyenv init -)"
-
 # rust
 export PATH="$HOME/.cargo/bin:$PATH"
 

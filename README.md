@@ -8,6 +8,7 @@ TODO: have a script for auto install
 - nerd-fonts
 - kitty: catpuccin theme
 - pyenv (needs tk on arch)
+- uv (better package manager for python, also supress needs for pyenv)
 - luarocks
 - nvm (install yay and then from AUR in arch)
 - rust (on arch install rustup with pacman)
@@ -17,7 +18,9 @@ TODO: have a script for auto install
 - pipx (python-pipx on arch)
 - ripgrep
 - fd
-- xclip
+- xclip or clipboard: <https://github.com/Slackadays/Clipboard>
+  (if using clipboard, need for custom clipboard provider)
+  clipboard allows the `cb` command which is very cool
 - bob
 - starship
 - zellij

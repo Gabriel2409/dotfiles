@@ -42,10 +42,6 @@ export PATH="$HOME/.cargo/bin:$PATH"
 # TODO: check for empty var
 export PATH="$PATH:$(go env GOBIN):$(go env GOPATH)/bin"
 
-# pyenv
-[[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
-eval "$(pyenv init -)"
-
 # shows current dir
 PROMPT='%B%F{magenta}%n@%m %F{blue}%~%f%b$ '
 
