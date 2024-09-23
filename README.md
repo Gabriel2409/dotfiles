@@ -33,7 +33,7 @@ TODO: have a script for auto install
 ## Remaps
 
 - to update /etc/X11/xorg.conf.d/00-keyboard.conf:
-  `localectl set-X11 keymap us '' '' caps:escape`
+  `localectl set-x11-keymap us '' '' caps:escape`
   check the list of options in /usr/share/X11/xkb/rules/base.lst
 - There are better ways but i want to rename the key next to left shift so i add the
   following to `usr/share/X11/xkb/symbols/us` file, in the basic sections:
