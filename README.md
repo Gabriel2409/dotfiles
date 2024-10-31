@@ -38,3 +38,9 @@ TODO: have a script for auto install
 - There are better ways but i want to rename the key next to left shift so i add the
   following to `usr/share/X11/xkb/symbols/us` file, in the basic sections:
   `key <LSGT>  { [ backslash,        bar,          backslash,    bar ] };`
+- Alternatively, use the correct keyboard layout directly
+
+## Find default program to open files
+
+- `/usr/share/applications/mimeinfo.cache`
+- overwritten in `~/.config/mimeapps.list`
