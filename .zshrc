@@ -76,6 +76,9 @@ bindkey '^[[A' history-beginning-search-backward
 bindkey '^[[B' history-beginning-search-forward
 bindkey '^p' history-search-backward
 bindkey '^n' history-search-forward
+# move with ctrl left, right
+bindkey '^[[1;5C' forward-word 
+bindkey '^[[1;5D' backward-word
 
 
 #nvim
