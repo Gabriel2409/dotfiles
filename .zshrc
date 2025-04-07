@@ -37,6 +37,9 @@ zinit light zsh-users/zsh-autosuggestions
 zinit light Aloxaf/fzf-tab
 zstyle ':completion:*' menu no
 zstyle ':fzf-tab:complete:cd:*' fzf-preview 'ls --color $realpath' 
+# Configure fzf-tab to use Ctrl+Y for accepting selections
+bindkey -r '^Y'
+zstyle ':fzf-tab:*' fzf-bindings 'ctrl-y:accept'
 # tip: ctrl r to have fzf on backward search
 eval "$(fzf --zsh)"
 
