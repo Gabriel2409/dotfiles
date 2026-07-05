@@ -1,0 +1,23 @@
+[[keys.command]]
+key = "ctrl+h"
+type = "plugin_action"
+command = "willfish.herdr-navigator.left"
+description = "navigate left"
+
+[[keys.command]]
+key = "ctrl+j"
+type = "plugin_action"
+command = "willfish.herdr-navigator.down"
+description = "navigate down"
+
+[[keys.command]]
+key = "ctrl+k"
+type = "plugin_action"
+command = "willfish.herdr-navigator.up"
+description = "navigate up"
+
+[[keys.command]]
+key = "ctrl+l"
+type = "plugin_action"
+command = "willfish.herdr-navigator.right"
+description = "navigate right"
