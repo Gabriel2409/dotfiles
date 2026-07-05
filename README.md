@@ -25,6 +25,7 @@ TODO: have a script for auto install
 - starship
 - zellij
 - tmux and tpm
+- herdr
 - bat and eza
 - obsidian: `https://obsidian.md/`
 - syncthing: `https://syncthing.net/`
