@@ -19,11 +19,12 @@ TODO: have a script for auto install
 - fd
 - xclip or wl-clipboard
 - bob
+- bat and eza
 - starship
 - zellij
 - tmux and tpm
+- zig
 - herdr
-- bat and eza
 - obsidian: `https://obsidian.md/`
 - syncthing: `https://syncthing.net/`
 - config nvim
