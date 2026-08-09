@@ -9,7 +9,7 @@ TODO: have a script for auto install
 - kitty: catpuccin theme (use kitten themes)
 - uv then uv install --default then uv python update-shell
 - luarocks
-- mise 
+- mise
 - rust (on arch install rustup with pacman then rustup toolchain install stable)
 - go
 - npm and node (use mise to get multiple versions)
@@ -27,6 +27,12 @@ TODO: have a script for auto install
 - obsidian: `https://obsidian.md/`
 - syncthing: `https://syncthing.net/`
 - config nvim
+
+## Sudo
+
+Pour avoir un editor sudo qui marche facilement, on peut set l'editor par default.
+Le plus simple reste ln -s /usr/bin/vim /usr/bin/vi car vim est toujours installe et
+par defaut EDITOR pointe vers vi
 
 ## Remaps
 
