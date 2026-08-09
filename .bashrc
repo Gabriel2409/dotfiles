@@ -96,6 +96,8 @@ export PATH="$BOB_PATH:$PATH"
 alias nvim="NVIM_APPNAME=nvim/nvim-lazyvim nvim"
 alias vi="NVIM_APPNAME=nvim/nvim-lazyvim nvim"
 alias vk="NVIM_APPNAME=nvim/nvim-kickstart nvim"
+export EDITOR="NVIM_APPNAME=nvim/nvim-lazyvim nvim"
+export VISUAL="NVIM_APPNAME=nvim/nvim-lazyvim nvim"
 
 # selenium driver workaround: https://github.com/mozilla/geckodriver/releases/tag/v0.31.0
 # export TMPDIR=$HOME/tmp geckodriver
