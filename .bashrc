@@ -80,8 +80,8 @@ export PATH=$PATH:"$HOME/.local/bin"
 # avoid leaving shell with ctrl d
 export IGNOREEOF=1
 
-# nvm
-source /usr/share/nvm/init-nvm.sh
+# mise
+eval "$(mise activate bash)"
 
 # go
 export PATH="$PATH:$(go env GOBIN):$(go env GOPATH)/bin"
@@ -107,9 +107,6 @@ PS1='\[\e[1;32m\]\u@\h \[\e[1;34m\]\w\[\e[0m\]\$ '
 
 # Load Angular CLI autocompletion.
 source <(ng completion script)
-
-# ensures pipx uses pyenv python
-export PIPX_DEFAULT_PYTHON=python
 
 # set env var for config
 export XDG_CONFIG_HOME=$HOME/.config
